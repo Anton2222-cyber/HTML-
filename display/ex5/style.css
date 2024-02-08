@@ -1,0 +1,17 @@
+div {
+  height: 300px;
+  background-color: palegreen;
+}
+
+h1 {
+  text-align: center;
+  background-color: aqua;
+}
+
+/* одни свойства могут влиять на другие */
+button {
+  display: block;
+  text-align: start;
+  width: 100px;
+  margin: 100px auto 0px;
+}

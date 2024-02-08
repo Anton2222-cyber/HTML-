@@ -1,0 +1,42 @@
+.users-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: purple;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 300px;
+  overflow: hidden;
+  background-color: yellow;
+  border: 10px solid red;
+  border-radius: 30px;
+}
+
+.user>img {
+  display: block;
+  /* margin: auto; */
+  width: 100px;
+  object-fit: cover;
+}
+
+.user>h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+p{
+  width: 100%;
+}
+
+.user-footer {
+  margin-top: auto;
+  height: 40px;
+  width: 100%;
+  background-color: blue;
+}

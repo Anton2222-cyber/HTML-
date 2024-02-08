@@ -1,0 +1,57 @@
+/* Универсальный селектор */
+/*text-transform: uppercase lowercase capitalize*/
+
+/* *{
+  background-color: aqua;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+} */
+
+/* Селекторы по типу элемента */
+/* h1 {
+  background-color: red;
+} */
+
+/* Селекторы по классу */
+/* .card {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+.card-adult {
+  background-color: blue;
+}
+.card-child {
+  background-color: yellow;
+} */
+
+/* Селекторы по идентификатору */
+/* #block {
+  background-color: blueviolet;
+} */
+
+/* Селекторы атрибутов */
+span[lang] {
+  font-weight: bold;
+}
+
+/* Все span Португалии будут зелёными */
+/* span[lang="pt"] {
+  color: green;
+} */
+
+/* Везде где есть pt  */
+/* span[lang~="pt"] {
+  color: green;
+} */
+
+/*значение при этом может быть или в точности равно "zh" или может начинаться с "zh"*/
+/* span[lang|="zh"] {
+  color: red;
+} */
+
+/* Все внутренние ссылки будут иметь золотой фон */
+/* a[href^="#"] {background-color:gold} */
+
+a[href$=".cn"] {color: red;}

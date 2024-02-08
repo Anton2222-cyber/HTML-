@@ -1,0 +1,17 @@
+div{
+  position: relative;
+  width: 100px;
+  height: 300px;
+  background-color: aqua;
+}
+
+article{
+  position: absolute;
+  background-color: red;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 33%;
+}
+
+

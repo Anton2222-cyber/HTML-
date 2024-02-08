@@ -1,0 +1,21 @@
+.item-1 {
+  max-width: 700px;
+  background-color: red;
+}
+
+.item-2 {
+  min-width: 500px;
+  background-color: green;
+}
+
+/* .item-3 {
+  max-height: 200px;
+  width: 100px;
+  background-color: blue;
+} */
+
+.item-4{
+  min-height: 100px;
+  width: 100px;
+  background: purple;
+}

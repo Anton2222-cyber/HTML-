@@ -1,0 +1,32 @@
+/*вдоль главной оси*/
+/*justify-content: flex-start flex-end center*/
+/*space-between | space-around | space-evenly*/
+/*вдоль попереченой оси*/
+/* align-items: stretch | flex-start | flex-end; */
+
+/*flex-wrap: wrap перенос элементов на новую строку*/
+
+
+/* .flex-item:last-child{
+    order: -1;
+} */
+.container{
+    background-color: orange;
+    
+    display: flex;
+
+    flex-wrap: wrap;
+    /* align-items: start;    */
+    min-height: 70vh;
+    align-content:space-evenly;
+    justify-content: space-between;
+    
+}
+
+.item{
+    width: 200px;
+    border: 6px solid rebeccapurple;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+}

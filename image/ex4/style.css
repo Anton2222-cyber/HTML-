@@ -1,0 +1,14 @@
+body {
+  background-image: url('./img.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  /* background-size: cover; */
+
+}
+
+div {
+  width: 400px;
+  height: 200px;
+  background: linear-gradient(90deg, rgba(255, 6, 6, 1) 0%, rgba(203, 86, 202, 1) 33%, rgba(86, 92, 203, 1) 64%, rgba(27, 227, 0, 1) 100%);
+}

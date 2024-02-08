@@ -1,0 +1,11 @@
+img.top {
+  vertical-align: text-top;
+}
+
+img.bottom {
+  vertical-align: text-bottom;
+}
+
+img.middle {
+  vertical-align: middle;
+}

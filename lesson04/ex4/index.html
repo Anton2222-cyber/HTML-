@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <h1>Формы</h1>
+  <form action="/" method="post">
+    <div>
+      <span>Как Вас зовут?</span>
+      <input type="text" name="firstName" value="firstName" />
+    </div>
+    <div>
+      <label for="email">Введите Вашу почту</label>
+      <input id="email" type="email" name="email" placeholder="email" />
+    </div>
+    <div>
+      <label for="password">Введите Ваш пароль</label>
+      <input id="password" type="password" name="password" placeholder="password" />
+    </div>
+    <div>
+      <label for="age">Сколько Вам полных лет?</label>
+      <input id="age" type="number" name="age" placeholder="age" />
+    </div>
+    <div>
+      <p>Технологии:</p>
+      <label for="html">HTML</label>
+      <input id="html" type="checkbox" name="html">
+      <label for="css">CSS</label>
+      <input id="css" type="checkbox" name="css">
+      <label for="js">JS</label>
+      <input id="js" type="checkbox" name="js">
+    </div>
+    <div>
+      Пол:
+      <input checked type="radio" name="gender" value="male"/>мужчина
+      <input type="radio" name="gender" value="female"/>женщина
+      <input type="radio" name="gender" value="robot"/>робот
+    </div>
+    <div>
+      Зачем тебе IT???
+      <select name="target">
+        <option>Хочу много денег</option>
+        <option>Это современно</option>
+        <option selected>Хочу работать удаленно</option>
+      </select>
+    </div>
+    <textarea name="message" cols="40" rows="5"></textarea>
+    <div>
+      <input type="submit" value="отправить"/>
+      <input type="reset" />
+    </div>
+  </form>
+
+  <button>Нажми меня</button>
+</body>
+
+</html>

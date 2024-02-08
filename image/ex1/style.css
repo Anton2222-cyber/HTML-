@@ -1,0 +1,37 @@
+h1 {
+  /* white-space: nowrap; */
+  /* white-space: pre; */
+  /* white-space: pre-line; */
+  /* white-space: pre-wrap; */
+}
+
+/* div {
+  background-color: blueviolet;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+} */
+
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+}
+
+/* h2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: grab;
+} */
+
+
+h2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

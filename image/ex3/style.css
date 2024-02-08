@@ -1,0 +1,25 @@
+div {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  margin: 10px;
+  /* overflow: hidden; */
+}
+
+/* img{
+  width: 200px;
+  height: auto;
+} */
+
+/* img{
+  width: inherit;
+  height: inherit;
+  object-fit: contain;
+} */
+
+img{
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  object-position: left;
+}

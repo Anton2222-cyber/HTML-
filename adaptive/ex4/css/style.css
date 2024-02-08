@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+/* 
+}
+.flexItem:last-child{
+    flex-shrink: 2;
+    flex-grow: 2;
+} */
+
+.container {
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.item {
+    border: 6px solid rebeccapurple;
+    background-color: white;
+    padding: 40px;
+    flex-basis: 300px;
+}
+
+.item1 {
+    flex-shrink: 1;
+    /* flex-grow: 1; */
+}
+
+.item2 {
+    flex-shrink: 2;
+    /* flex-grow: 2; */
+}
+
+.item3 {
+    flex-shrink: 1;
+}

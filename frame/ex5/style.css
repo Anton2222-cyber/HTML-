@@ -1,0 +1,16 @@
+div{
+  width: 100px;
+  height: 300px;
+  background-color: aqua;
+  position: relative;
+}
+article{
+  position: absolute;
+  background-color: red;
+  height: 33%;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+

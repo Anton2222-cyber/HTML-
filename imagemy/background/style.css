@@ -1,0 +1,9 @@
+div{
+  width: 400px;
+  height: 200px;
+  background: linear-gradient(90deg, rgba(250,0,28,1) 9%, rgba(16,244,4,1) 59%, rgba(0,212,255,1) 100%);
+}
+body{
+  background: url('./hurt.jpg');
+ 
+}

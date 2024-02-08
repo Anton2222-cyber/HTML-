@@ -1,0 +1,75 @@
+/* Псевдо */
+/* a:visited{
+  color: yellow;
+}
+a:hover{
+  color: red;
+}
+a:active{
+  color: black;
+}
+a:link{
+  color: gray;
+} */
+
+/* .item:hover{
+  background-color: aqua;
+} */
+
+/* li:first-child{
+  color: lime;
+  padding: 10px;
+} */
+
+/* li:last-child{
+  color: lime;
+  padding: 10px;
+} */
+
+/* li:only-child{
+  color: blue;
+} */
+
+/* li:nth-child(4){
+  color: brown;
+} */
+
+/* li:nth-child(2n){
+  color: brown;
+} */
+
+/* li:nth-child(3n){
+  color: brown;
+} */
+
+/* li:nth-child(3n+2){
+  color: brown;
+} */
+
+/* li:nth-child(2n+1){
+  color: brown;
+} */
+
+/* li:nth-child(odd)
+{
+  color: brown;
+} */
+
+/* li:nth-child(even)
+{
+  color: brown;
+} */
+
+/* p::first-letter{
+  color: red;
+  font-size: 30px;
+} */
+
+/* p::first-line{
+  color: red;
+  font-size: 30px;
+} */
+
+li:first-of-type + li {
+  color: red;
+}

@@ -1,0 +1,19 @@
+.block{
+    width: 300px;
+    background-color: red;
+    margin: 50px auto;
+    position: relative;
+}
+
+.block::after{
+    content: "hello!";
+    position: absolute;
+    top: 25px;
+    left: 0;
+    display: none;
+    border: 1px solid black;
+background-color: gray;
+}
+.block:hover::after{
+display: block;
+}

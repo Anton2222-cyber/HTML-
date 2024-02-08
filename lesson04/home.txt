@@ -1,0 +1,11 @@
+Почитать:
+https://developer.mozilla.org/ru/docs/Web/CSS/General_sibling_combinator
+https://developer.mozilla.org/ru/docs/Web/CSS/Adjacent_sibling_combinator
+
+1.Переписать таблицу без классов и id!
+В таблице для background использовать только три оттенка светлого(темный, светлый, средний)
+Подсказка: четные...
+
+2.Пройти игру
+https://flukeout.github.io/
+Прикрепить скриншот всех пройденных уровней

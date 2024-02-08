@@ -1,0 +1,37 @@
+ul {
+  list-style-type: disc;
+}
+th{
+  width: 30px;
+}
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+tbody {
+  background-color: aqua;
+}
+
+thead,
+tfoot {
+  background-color: palevioletred;
+}
+
+thead {
+  font-size: 24px;
+}
+
+th {
+  padding: 10px;
+}
+
+td {
+  padding: 4px;
+  text-align: left;
+}
+
+th,
+td {
+  border: 1px solid black;
+}

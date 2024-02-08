@@ -1,0 +1,17 @@
+div:first-of-type {
+  box-sizing: content-box;
+  height: 40px;
+  width: 170px;
+  border: 2px solid red;
+  padding: 5px;
+  background-color: blue;
+}
+
+div:last-of-type {
+  box-sizing: border-box;
+  height: 40px;
+  width: 170px;
+  border: 2px solid blueviolet;
+  padding: 5px;
+  background-color: green;
+}

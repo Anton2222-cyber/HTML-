@@ -1,0 +1,50 @@
+.first{
+background-color: gray;
+color: black;
+transition: all 2s;
+margin-left: -50px;
+}
+.first:hover{
+color:gray;
+background-color: black;
+margin-left: 30px;
+transition: all 2s;
+}
+
+.second{
+  width: 50px;
+  height: 20px;
+  transition: width 1s,height 4s;
+}
+.second:hover{
+width: 70px;
+height: 30px;
+transition: width 4s,height 1s;
+
+}
+button{
+  display: block;
+}
+
+.third{
+background-color: red;
+color: black;
+opacity: 0.1;
+transition: all 1s;
+}
+
+.third:hover{
+  opacity: 1;
+  transition: all 1s;
+}
+/* div{
+  display: flex;
+  width: 300px;
+  background-color: aqua;
+  justify-content: start;
+  transition: all 3s;
+}
+div:hover{
+  justify-content: end;
+  transition: all 3s;
+} */

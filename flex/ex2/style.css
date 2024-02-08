@@ -1,0 +1,43 @@
+/*  flex-direction: row row-reverse column column-reverse*/
+/* смена направления оси */
+
+/* выравнивание вдоль поперечной оси */
+/* align-items: strech; */
+*{
+  box-sizing: border-box;
+}
+
+.users-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: stretch;
+  background-color: purple;
+  /* height: 90vh; */
+}
+
+.user {
+  width: 300px;
+  overflow: hidden;
+  background-color: orange;
+  border: 10px solid red;
+  border-radius: 30px;
+}
+
+.user>img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.user>h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.user-footer {
+  height: 40px;
+  background-color: blue;
+}

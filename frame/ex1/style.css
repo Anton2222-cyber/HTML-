@@ -1,0 +1,16 @@
+div{
+  width: 100px;
+  height: 100px;
+}
+.first{
+  background-color: red;
+}
+.second{
+  background-color: green;
+  /* visibility: hidden; */
+  /* display: none; */
+  /* opacity: 0; */
+}
+.third{
+  background-color: blue;
+}

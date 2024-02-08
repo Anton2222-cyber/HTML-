@@ -1,0 +1,89 @@
+article{
+  width: 400px;
+  height: 250px;
+  
+  border-radius: 10px;
+  
+  /* 
+   */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.first-card{
+  background: linear-gradient(90deg, rgba(255,190,153,1) 0%, rgba(255,134,150,1) 100%);
+}
+.second-card{
+  background: linear-gradient(90deg, rgba(137,199,246,1) 0%, rgba(18,141,225,1) 100%);
+}
+.third-card{
+  background: linear-gradient(90deg, rgba(125,217,209,1) 0%, rgba(0,208,183,1) 100%);
+}
+.block{
+  /* margin: 0 auto;
+  padding-top: 20px; */
+  /* vertical-align:text-bottom; */
+  /* background-color: red; */
+  width: 318px;
+    height: 160px;
+    /* display: flex;
+    justify-content: space-evenly;
+    flex-direction: column; */
+}
+/* .middlemoney{
+height: 50%
+} */
+
+article::after,
+article::before{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 100px;
+  opacity: 0.5;
+}
+
+article::after{
+  top: -8px;
+  right: -74px;
+}
+article::before{
+  top: 143px;
+  right: -17px;
+}
+*{
+  font-family: Verdana, sans-serif;
+  color: white;
+  font-weight:lighter;
+  /* margin: 0; */
+}
+h3{
+ 
+  font-size: 20px;
+ 
+}
+h2{
+  font-size: 30px;
+  margin-top: -10px;
+}
+.toping{
+  margin-top: 44px;
+
+}
+i{
+  position: absolute;
+  top: 60px;
+  right: 46px;
+  font-size: 26px;
+}
+section{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,22 @@
+
+/* *{
+  background-color: aqua;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+} */
+.card{
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+}
+.card-adult{
+  background-color: blue;
+}
+
+.card-child{
+  background-color: yellow;
+}
+#block{
+  background-color: blueviolet;
+}

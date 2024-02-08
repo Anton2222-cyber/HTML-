@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    background-color: orange;
+}
+
+.item {
+    width: 200px;
+    border: 6px solid rebeccapurple;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+/* .item:first-child {
+    order: 1;
+}
+
+.item:last-child {
+    order: -1;
+} */
+
+.main {
+    background-color: red;
+}
+
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    background-color: orange;
+}
+
+.item {
+    width: 200px;
+    border: 6px solid rebeccapurple;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.main {
+    background-color: red;
+    order: -1;
+} */

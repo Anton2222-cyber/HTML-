@@ -1,0 +1,14 @@
+ul {
+  list-style: none;
+}
+
+li::before {
+  content: "";
+  height: 30px;
+  width: 30px;
+  background: url(./icon.png) no-repeat;
+  position: absolute;
+  margin-left: -25px;
+  background-size: 21px;
+  margin-top: -px;
+}

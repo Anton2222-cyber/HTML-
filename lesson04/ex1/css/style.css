@@ -1,0 +1,71 @@
+/* Псевдо */
+/* псевдоклассы */
+/* a:visited {
+  color: yellow;
+}
+
+a:hover {
+  background-color: blueviolet;
+}
+
+a:active {
+  color: red;
+}
+
+a:link{
+  color: gray;
+} */
+
+/* .item:hover {
+  background-color: aqua;
+} */
+
+/* li:first-child{
+  color: lime;
+  padding: 5px;
+} */
+
+/* li:last-child {
+  color: lime;
+  padding: 5px;
+} */
+
+/* li:only-child {
+  color: lime;
+} */
+
+/* li:nth-child(2) {
+  color: lime;
+} */
+
+/* li:nth-child(2n) {
+  color: lime;
+} */
+
+/* li:nth-child(3n) {
+  color: lime;
+} */
+
+/* li:nth-child(3n+2) {
+  color: lime;
+} */
+
+/* li:nth-child(2n+1) {
+  color: lime;
+} */
+
+/* odd even */
+li:nth-child(even) {
+  color: lime;
+}
+
+/* псевдоэлементы */
+/* p::first-letter {
+  color: red;
+  font-size: 30px;
+} */
+
+p::first-line {
+  color: red;
+  font-size: 30px;
+}

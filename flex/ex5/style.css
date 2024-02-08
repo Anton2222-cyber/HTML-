@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+div {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+}
+
+header {
+  height: 50px;
+  background-color: blue;
+}
+
+main {
+  /* background-color: yellow; */
+  /* flex-grow: 0; */
+}
+
+footer {
+  margin-top: auto;
+  height: 50px;
+  background-color: red;
+}

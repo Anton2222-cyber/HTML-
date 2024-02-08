@@ -1,0 +1,56 @@
+/* БЛОЧНЫЕ */
+
+div {
+  background-color: #0000ff;
+  width: 200px;
+  height: 200px;
+  /* padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 100px; */
+
+  padding: 20px;
+
+  /* padding: 20px 60px; */
+
+  /* padding: 10px 60px 100px; */
+
+  /* padding: 10px 20px 30px 40px; */
+
+  /* padding: 10px 0 0 0; */
+
+  /* padding: 10px 0 20px 0; */
+
+  margin-top: 30px;
+
+}
+
+h1 {
+  background-color: aqua;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+p {
+  background-color: bisque;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#second {
+  background-color: blueviolet;
+  width: 300px;
+}
+
+section{
+  padding: 10px 20px 0;
+  /* margin: 10px 20px 0; */
+
+  background-color: gray;
+}
+
+/* ctrl + /
+ctrl + K,C
+ctr + K, U */
